@@ -19,9 +19,10 @@ public class Area extends BaseModel{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
-    private int id;
+    private long id;
     private String area;
 
     @ManyToOne(targetEntity=City.class, cascade = CascadeType.MERGE)
     private City city;
+
 }

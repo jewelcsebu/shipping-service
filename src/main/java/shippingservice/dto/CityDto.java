@@ -10,9 +10,9 @@ import lombok.Setter;
 @AllArgsConstructor
 @Setter
 @Getter
-public class AreaDto {
+public class CityDto {
 
-    private String area;
-    private long cityId;
+    private String city;
+    private long regionId;
 
 }
