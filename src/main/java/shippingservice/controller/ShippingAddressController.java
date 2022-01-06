@@ -18,7 +18,8 @@ import shippingservice.util.JsonResponseModel;
 import java.util.List;
 
 @RestController
-@RequestMapping("api/v1/shipping-address")
+@RequestMapping("api/v1/shipping-service")
+@CrossOrigin
 public class ShippingAddressController {
 
     private final ShippingAddressService shippingAddressService;
